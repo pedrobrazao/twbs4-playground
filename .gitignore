@@ -1,0 +1,4 @@
+.vagrant/
+nbproject/
+node_modules/
+public/css/app.min.css

@@ -1,0 +1,20 @@
+{
+  "name": "twbs4-playground",
+  "version": "1.0.0",
+  "description": "Basic setup for Twitter Bootstrap version 4.",
+  "dependencies": {
+    "jquery": ">=3.0.0",
+    "popper.js": "^1.11.0",
+    "font-awesome": "^4.7.0",
+    "bootstrap": "^4.0.0-beta"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3"
+  },
+  "scripts": {
+    "compile": "node-sass --output-style compressed sass/app.scss > public/css/app.min.css ",
+    "watch": "node-sass --watch --output-style compressed sass/app.scss > public/css/app.min.css "
+  },
+  "author": "Pedro Ferreira",
+  "license": "MIT"
+}
